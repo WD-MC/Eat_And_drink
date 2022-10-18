@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Css/login.css"/>
+    <link rel="stylesheet" href="Css/font-awesome-4.7.0/css/font-awesome.css"/>
+</head>
+<body>
+    <div class="containers">
+        <nav>
+            <div>
+                <img  src="images/res-logo.png"/>
+                <h3>Eat & Drink</h3>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="#"><strong>Accueil</strong></a></li>
+                    <li><a href="#"><strong>Reçus</strong></a></li>    
+                    <li><a href="#"><strong>Panier</strong></a></li>    
+                    <li> <a href="#"><strong>Contact</strong></a></li> 
+                </ul>
+            </div>
+
+            <div class="icone">
+                <i class="fa fa-shopping-basket"></i>
+                <div id="comande">0</div>
+                <i class = "fa fa-user"></i>
+                <i id="barre" class="fa fa-bars dropdown">
+                    <div class="dropdown-child">
+                        <a href="#">Accueil</a>
+                        <a href="#">Recus</a>
+                        <a href="#">Panier</a>
+                        <a href="#">Contacts</a>
+                    </div>
+                </i>
+            </div>
+        </nav>
+        <section class="section1">
+            <img class="img1" src="images/WhatsApp Image 2022-07-26 at 08.50.49.jpeg"/>
+            <h1>Inscription</h1>
+        </section>
+        <section class="section2">
+            <div class="content">
+                <form method="GET" action="login.php">
+                    <input type="text" name="prenom" placeholder="Prénom"/>
+                    <input type="text" name="nom" placeholder="Nom"/>
+                    <input type="email" name="nom" placeholder="E-mail"/>
+                    <input type="password" name="nom" placeholder="Mot de Passe"/>
+                    <input type="password" name="nom" placeholder="Confirmation du Mot de Passe"/>
+                    <br/><br/><hr/>
+                    <label for="quartier">Vous résidez dans quel quartier de la ville de Yaoundé ? </label><br/>
+                    <input type="radio" name="quartier" value="Bastos" style="margin:0px; width: 15px;"/>Bastos
+                </form>
+            </div>
+        </section>
+        <div class="section3">
+            <p>Vous avez déja un compte? <a href="#">connectez-vous ici</a> </p>
+        </div>
+        <br/><br/><br/>
+        <footer>
+            <section class="section7">
+                <div>
+                    <img src="images/res-logo.png"/>
+                    <h4>Eat & Drink</h4><br/>
+                    <p>
+                        Jamais trop de frites, Une pépite de<br/>
+                        poulet est ce qu'il vous faut, Savourez<br/>
+                        la saveur C'est le jour de la triche, n'aie<br/>
+                        pas peur.
+                    </p>
+                </div>
+
+                <div class="infos">
+                    <h4>Heure de livraison</h4>
+                    <h5>Dimanche - lundi</h5>
+                    <p>10:00 23:00</p>
+                    <h5>Vendredi - Samedi</h5>
+                    <p>Fermé</p>
+                </div>
+
+                <div id="contact" class="infos">
+                    <h4>Contact</h4>
+                    <h5>Yaoundé CMR Ngoa-Ekélle</h5>
+                    <br/>
+                    <h5>Phone: +237 694 00 00 00</h5>
+                    <h5>Email: eatdrink@email.com</h5>
+                </div>
+
+                <div id="letter"  class="infos">
+                    <h4>NewsLetter</h4>
+                    <h4>Abonnez-vous à notre newsletter</h4>
+                    <form>
+                        <input type="email" placeholder="votre email"/>
+                    </form>
+                </div>
+            </section>
+            <br/>
+            <hr>
+            <div class="suivre">
+                <span>Nous suivre</span>
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-music"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <br/>
+        </footer>
+    </div>
+</body>
+</html>
