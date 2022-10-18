@@ -1,0 +1,105 @@
+@media screen and (max-width: 767px){
+    /*************navbar*************/
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    nav img{
+        
+        margin-top: 20px;
+    }
+    nav .icone{
+        margin-top: 50px;
+    }
+    #menu{
+        display: none;
+    }
+    nav i¨{
+        width: 50px;
+        height: 50px;
+    }
+    #barre{
+        display: block;
+    }
+
+    /*************navbar*************/
+
+    /*************Main*************/
+    #main1{
+        width: 100%;
+        text-align: center;
+    }
+    .titre5{
+        margin-left: 170px;
+    }
+    .titre5 h4{
+        margin: 0px 70px 0px 0px;
+    }
+    /*************Main*************/
+
+    /*************header*************/
+    .section1{
+        margin: 0px 20px;
+    }
+    .burger {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .section1 div{
+        width: 250px;
+        height: 80px;
+    }
+    .section1 div span{
+        margin: 5px 10px;
+    }
+    /**************************/
+    .section3{
+        display: block;
+        text-align: center;
+    }
+    .section3 div{
+        margin-top: 50px;
+    }
+    .para{
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        margin:0px  10px;
+    }
+    /**************************/
+    .article{
+        width: 100%;
+    }
+    .section6{
+        display: block;
+    }
+    .container{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    /*************header*************/
+
+    /*************footer*************/
+    footer{
+        width: 100%;
+    }
+    footer hr{
+        display: none;
+    }
+    .section7{
+        display: block;
+        margin-left: 80px;
+        padding-top: 5px;
+    }
+    .infos form input{
+        padding-right: 250px;
+        border: none;
+    }
+    .suivre{
+        margin-left: 80px;
+        text-align: start;
+    }
+    /*************footer*************/
+
+}

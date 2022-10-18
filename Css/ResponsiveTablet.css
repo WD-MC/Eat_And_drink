@@ -1,0 +1,74 @@
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*************navbar*************/
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    nav img{
+        margin-top: 20px;
+    }
+    nav .icone{
+        margin-top: 50px;
+        padding-left: 150px;
+    }
+    nav #menu{
+        display: none;
+    }
+    #barre{
+        display: block;
+    }
+    /*************navbar*************/
+
+    /*************Main*************/
+    main .titre5{
+        margin-top: 40px;
+    }
+    main .titre5 h4{
+        margin: 0px 40px 0px 0px;
+    }
+    /*************Main*************/
+
+    /*************header*************/
+    .section1{
+        margin: 0px 20px;
+    }
+    .section1 .burger{
+        margin:0px 70px;
+        margin-bottom: 30px;
+    }
+    .para{
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        margin:0px  10px;
+    }
+    .section6{
+        margin-bottom: 20px;
+    }
+    article .container{
+        margin-bottom: 20px;
+    }
+    .section6 .display1{
+        display: block;
+    }
+    .section6 .display{
+        display: none;
+    }
+    /*************header*************/
+
+    /*************footer*************/
+    .infos{
+        margin-right: 210px;
+    }
+    #contact{
+        margin-left: 79px;
+    }
+    #letter{
+        margin-left: 40px;
+    }
+    /*************footer*************/
+
+}
